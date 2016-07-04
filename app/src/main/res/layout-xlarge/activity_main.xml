@@ -7,18 +7,19 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/marcianito"
     tools:context="unam.coursera.primerproyecto.MainActivity">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:text="@string/titulo"
         android:id="@+id/textView1"
         android:textSize="@dimen/abc_text_size_display_1_material"
         android:textStyle="bold"
         android:textColor="@android:color/white"
-        android:background="@drawable/marcianito"
-        android:textAlignment="center" />
+        />
 
     <Button
         android:layout_width="wrap_content"
